@@ -1,0 +1,52 @@
+<div>
+    <div class="row m-0 p-0">
+        <div class="col-2 m-0 p-0">
+            <app-sidebar></app-sidebar>
+        </div>
+        <div class="col-10">
+            <div class="d-flex justify-content-between">
+                <div class="d-flex">
+                    <div class="d-flex align-items-center mt-2">
+                        <i class="fa-solid fa-chevron-left"></i>
+                    </div>
+                    <div>
+                        <div class='container'>
+                            <input type="text" id="searchInput" placeholder="Search..">
+                            <div id='submitsearch'
+                              style="">
+                              <span>Search</span>
+                              
+                            </div>
+                          </div>
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center mt-2 justify-content-around me-3">
+                    
+                    <div class="upgrade me-2">
+                        <span>Upgrade</span>&nbsp;
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div class="invite me-2">
+                        <span>Invite</span>&nbsp;
+                        <i class="fa-solid fa-user-plus"></i>
+                    </div>
+                    <div class="bell me-2">
+                        <i class="fa-regular fa-bell"></i>
+                    </div>
+                    <div>
+                        <div class="">
+                            <img class="avatar personImg rounded-pill" src="../../../assets/5.png"/>
+                        </div>
+                        
+                    </div>
+                   
+                </div>
+            </div>
+            <div class="">
+                <router-outlet></router-outlet>
+            </div>
+           
+        </div>
+    </div>
+</div>

@@ -1,0 +1,81 @@
+
+
+
+input:focus {
+    outline-offset: -2px;
+}
+
+.container {
+    position:fixed;
+    top: 5%;
+    left: 40%;
+  width:100%;
+   
+    margin-top: -1em; /*set to a negative number 1/2 of your height*/
+    margin-left: -15em; /*set to a negative number 1/2 of your width*/
+  
+   
+}
+
+
+
+
+#submitsearch{
+  border: 1px solid rgb(138, 134, 134);
+  margin-left: -82px;
+  padding: 5px;
+  border-radius: 19px;
+  cursor: pointer;
+  padding-left: 10px;
+  padding-right: 8px; 
+  padding-top: 4px;
+
+  display: none;
+  box-shadow: 0 0 1px black;     
+  margin-right:110px;
+}
+
+#searchInput {
+      width: 18%;
+
+      border: 1px solid #000;
+      border-radius: 30px;
+      font-size: 11px;
+      background-color: white;
+      background-image:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png');
+
+      background-position: 10px 7px;
+      background-repeat: no-repeat;
+      padding: 8px 20px 8px 40px;
+      -webkit-transition: width 0.8s ease-in-out;
+      transition: width 0.8s ease-in-out;
+      outline: none;
+      opacity: 0.9;
+
+    }
+
+    .upgrade{
+        background-color: rgb(239, 214, 168);
+        padding: 0.3rem;
+        color: #000;
+        font-size: 0.8rem;
+        border-radius: 0.3rem;
+    }
+
+    .fa-bolt{
+        color: orange;
+    }
+
+
+    .invite{
+        background-color: rgb(198, 197, 197);
+        padding: 0.3rem;
+        color: #000;
+        font-size: 0.8rem;
+        border-radius: 0.3rem;
+    }
+
+    .personImg{
+        height: 3rem;
+        width: 3rem;
+    }

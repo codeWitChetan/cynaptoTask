@@ -1,0 +1,87 @@
+.emoji{
+    height: 2rem;
+    width: 2rem;
+}
+
+.thinkEmoji{
+    background-color: white;
+}
+
+.fa-bolt{
+    background-color: orange;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+    margin-right: 0.5rem;
+}
+
+.cleanAudio{
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+}
+
+.RemoveNoise{
+    font-size: 0.6rem;
+    font-weight: 200;
+    margin-left: 1rem;
+    margin-bottom: 0.7rem;
+}
+
+.starIcon{
+    margin-left: 0.5rem;
+}
+
+.title{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.upload{
+    opacity: 50%;
+    font-size: 0.8rem;
+}
+
+.subTitle{
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.forwordBack{
+    background-color: rgb(228, 225, 225);
+   padding: 0.4rem;
+   border-radius: 0.4rem;
+   cursor: pointer;
+}
+
+.doneButtons{
+    background-color: black;
+    color: white;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+}
+
+.proname{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.editPic{
+    height: 21rem;
+    width: 30rem;
+    margin-top: 3rem;
+}
+
+.editor{
+    height: 5.5rem;
+}
+
+.editorcard{
+    box-shadow: rgba(88, 88, 88, 0.1) 0px 3px 6px,
+    rgba(124, 122, 122, 0.1) 0px 3px 6px;
+}
+
+.new{
+    background-color: aliceblue;
+}

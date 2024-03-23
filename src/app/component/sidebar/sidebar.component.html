@@ -1,0 +1,64 @@
+<div class="card main-card">
+    <div class="d-flex mt-5 logo">
+        veed.io
+    </div>
+    <div class="d-flex justify-content-center mt-3 align-items-center">
+        <div class="namIcon">
+            A
+        </div>
+        <div class="d-flex flex-column">
+            <div class="">
+                <div class="btn-group">
+                    <button class="btn  btn-sm dropdown-toggle" type="button" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Anmol chavan
+                    </button>
+                    <div class="dropdown-menu">
+                        ...
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+
+    </div>
+
+    <div class="mt-4">
+        <div class="d-flex  justify-content-between align-items-center" [routerLink]="['/add-video']">
+            <button class="btn btn-sm  btn-3 createButtons " type="button">
+                <span class="btn-inner--text ">New Video</span>
+                <span class="btn-inner--icon ps-4"><i class="fa-solid fa-plus"></i></span>
+
+            </button>
+        </div>
+    </div>
+    <div class="d-flex menu">
+        <ul>
+            <li routerLinkActive="active" routerLink="/dashborad">
+                <div class="show-active d-flex ps-2  align-items-center">
+                    <i class="fa-solid fa-house"></i>&nbsp;
+                    <span class="sideBarText">Home</span>
+                </div>
+            </li>
+            <li routerLinkActive="active" routerLink="/template">
+                <div class="show-active d-flex ps-2   align-items-center">
+                    <i class="fa-solid fa-swatchbook"></i>&nbsp;
+                    <span class="sideBarText">Templates</span>
+                </div>
+            </li>
+            <li routerLinkActive="active" routerLink="/video">
+                <div class="show-active d-flex ps-2  align-items-center">
+                    <i class="fa-solid fa-folder"></i>&nbsp;
+                    <span class="sideBarText">All Videos</span>
+                </div>
+            </li>
+            <li routerLinkActive="active" routerLink="/podcast">
+                <div class="show-active d-flex ps-2  align-items-center">
+                    <i class="fa-solid fa-podcast"></i>&nbsp;
+                    <span class="sideBarText">Podcasts and Shows</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
